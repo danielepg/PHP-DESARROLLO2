@@ -1,0 +1,164 @@
+.datos_cliente, .datos_venta, .title_page{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#detalle_venta tr{
+    background-color: #FFF !important;
+}
+#detalle_venta td{
+    border-bottom: 1px solid #CCC;
+}
+.datos{
+    background-color: #e3ecef;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #78909C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.action_cliente{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+.datos label{
+    margin: 5px auto;
+}
+.wd20{
+    width: 20%;
+}
+.wd25{
+    width: 25%;
+}
+.wd30{
+    width: 30%;
+}
+.wd40{
+    width: 40%;
+}
+.wd60{
+    width: 60%;
+}
+.wd100{
+    width: 100%;
+}
+#div_registro_cliente, #add_product_venta{
+    display: none;
+}
+.displayN{
+    display: none;
+}
+.tbl_venta{
+    max-width: 900px;
+    margin: auto;
+}
+.tbl_venta tfoot td{
+    font-weight: bold;
+}
+.textright{
+    text-align: right;
+}
+.textcenter{
+    text-align: center;
+}
+.textleft{
+    text-align: left;
+}
+
+
+
+.btn_anular{
+    background-color: #f36a6a;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 3px;
+    color: #FFF;
+}
+
+.btn_cancel, .btn_ok{
+    width: 125px;
+    background: #07345e;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+.btn_cancel{
+    background: #3d7ba8;
+}
+.data_delete form{
+
+    background: initial;
+    margin: auto;
+    padding: 20px 50px;
+    border: 0;
+}
+
+.link_add{
+    color: #170b94;
+}
+
+.btn_save{
+    font-size: 12pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: white;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 30px auto 15px auto;
+    display: block;
+    border-radius: 5px;
+}
+.btn_new{
+    display: inline-block;
+    background: #239baa;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}
+
+table th {
+    text-align: left;
+    padding: 10px;
+    background: #3d7ba8;
+    color: white;
+}
+
+input:disabled {
+    cursor: default;
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3));
+    color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+    border-color: rgba(118, 118, 118, 0.3);
+}
+
+#container {
+    padding: 50px 15px 35px;
+}
